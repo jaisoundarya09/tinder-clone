@@ -1,0 +1,49 @@
+.chatpage_msg{
+    display: flex;
+    align-items: center ;
+    padding: 20px;
+}
+
+.chat_message{
+    margin-left: 10px;
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.chatpage_meeting{
+    text-align: center;
+    color: gray;
+}
+
+
+.chat_your_message{
+    margin-left: auto;
+    background-color: #29b3cd;
+    padding: 15px;
+    color: white;
+    border-radius: 20px;
+}
+
+.input_block{
+    width: 100%;
+    border-top: 1px solid lightgrey;
+    display: flex;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+}
+
+.input_field{
+    flex: 1;
+    border: none;
+    padding: 10px;
+}
+
+.input_send{
+    border: none;
+    margin: 20px;
+    background-color: white;
+    font-weight: bold;
+    color: #fe3d71;
+}
